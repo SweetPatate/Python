@@ -1,7 +1,7 @@
 """
 FizzBuzz is a well known programming assignment, asked during interviews.
 
-The given code solves the FizzBuzz problem and uses the words "Solo" and "Learn" instead of "Fizz" and "Buzz".
+The given code solves the FizzBuzz problem !
 It takes an input n and outputs the numbers from 1 to n.
 For each multiple of 3, print "Fizz" instead of the number.
 For each multiple of 5, prints "Buzz" instead of the number.
