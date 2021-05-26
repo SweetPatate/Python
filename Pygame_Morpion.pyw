@@ -1,4 +1,4 @@
-import sys, pygame
+import pygame, sys
 from pygame.locals import *
 
 def newBoard():
@@ -49,7 +49,7 @@ def put(surface, board, player, x, y):
 
 
 def drawWin(surface, color, pos1, pos2):
-    pygame.draw.line(surface, color, (pos1[0]*100+150, pos1[1]*100+150), (pos2[0]*100+150, pos2[1]*100+150), 20)
+    pygame.draw.line(surface, color, (pos1[0]*100+150, pos1[1]*100+150), (pos2[0]*100+150, pos2[1]*100+150), 10)
 
 
 def win(surface, board, player):
@@ -113,7 +113,7 @@ clickableArea.append(pygame.Rect((300, 300), (100, 100)))
 newGameArea = pygame.Rect((450, 100), (300, 50))
 quitGameArea = pygame.Rect((450, 150), (300, 50))
 
-pygame.display.set_caption('Hello there')
+pygame.display.set_caption('Tic Tac Toe')
 FPS = 60
 fpsClock = pygame.time.Clock()
 inProgress = True
